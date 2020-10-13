@@ -3,12 +3,12 @@ Script to create executable for cluster to launch many FEA jobs. Script creates 
 
 Executable with such a structure can be generated:
 
-submit jobdeck_1.ecd
-submit jobdeck_2.ecd
-.
-.
-.
-submit another_jobdeck.ecd
+submit jobdeck_1.ecd<br>
+submit jobdeck_2.ecd<br>
+.<br>
+.<br>
+.<br>
+submit another_jobdeck.ecd<br>
 
 Script can be used in case of any FEA software (for example Nastran, Ansys, LS-Dyna, Abaqus, etc) if cluster is properly configured.
 
